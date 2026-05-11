@@ -1,0 +1,41 @@
+{
+  "cleanupPeriodDays": 99999,
+  "env": {
+    "CLAUDE_CODE_DISABLE_ADAPTIVE_THINKING": "1",
+    "DISABLE_AUTOUPDATER": "1",
+    "CLAUDE_CODE_ENABLE_AWAY_SUMMARY": "0",
+    "MAX_THINKING_TOKENS": "127999"
+  },
+  "permissions": {
+    "allow": [
+      "Bash(powershell:*)",
+      "Read(~/.claude/**)"
+    ]
+  },
+  "model": "opus[1m]",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  },
+  "enabledPlugins": {
+    "discord@claude-plugins-official": true
+  },
+  "promptSuggestionEnabled": false,
+  "showThinkingSummaries": true,
+  "skipDangerousModePermissionPrompt": true,
+  "verbose": true,
+  "autoCompactEnabled": false,
+  "remoteControlAtStartup": false,
+  "autoUpdates": false,
+  "chat.fontSize": 8
+}
