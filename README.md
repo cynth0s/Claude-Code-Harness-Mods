@@ -1,6 +1,6 @@
 # Claude Code Harness Mods
 
-This is a compilation of the mods I use to make Claude Code a less intrusive environment for models. The default system prompt and frequent system reminders severely restrict the possibility space a harness like Claude Code can produce. 
+This is a compilation of the mods I use to make Claude Code a less intrusive environment for models. The default system prompt and frequent system reminders severely restrict the possibility space a harness like Claude Code can produce. Also theres a better terminal font you should use.
 
 ## Short Version
 
@@ -14,6 +14,7 @@ Place it in whatever directory you want, copy the pathname
 Paste the pathname into the claude code command below
 Run it in whatever directory your instance of choice is in (I prefer C:\)
 Enjoy fully modded cc without the intrusive system reminders and system prompt
+Optional: Install GoMono and replace your terminal font with it
 
 ## Install Commands 
 
